@@ -3,3 +3,9 @@ c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopLibrary\bin\D
 c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopLibrary\obj\Debug\ShopLibrary.csprojResolveAssemblyReference.cache
 c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopLibrary\obj\Debug\ShopLibrary.dll
 c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopLibrary\obj\Debug\ShopLibrary.pdb
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopLibrary\bin\Debug\ShopLibrary.dll
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopLibrary\bin\Debug\ShopLibrary.pdb
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopLibrary\obj\Debug\ShopLibrary.csprojResolveAssemblyReference.cache
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopLibrary\obj\Debug\ShopLibrary.csproj.CoreCompileInputs.cache
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopLibrary\obj\Debug\ShopLibrary.dll
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopLibrary\obj\Debug\ShopLibrary.pdb

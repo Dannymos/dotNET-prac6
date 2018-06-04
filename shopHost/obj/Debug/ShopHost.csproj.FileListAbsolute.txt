@@ -6,3 +6,13 @@ c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopHost\bin\Debu
 c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopHost\obj\Debug\ShopHost.csprojResolveAssemblyReference.cache
 c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopHost\obj\Debug\ShopHost.exe
 c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopHost\obj\Debug\ShopHost.pdb
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopHost\bin\Debug\ShopHost.exe.config
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopHost\bin\Debug\ShopHost.exe
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopHost\bin\Debug\ShopHost.pdb
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopHost\bin\Debug\ShopLibrary.dll
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopHost\bin\Debug\ShopLibrary.pdb
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopHost\obj\Debug\ShopHost.csprojResolveAssemblyReference.cache
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopHost\obj\Debug\ShopHost.csproj.CoreCompileInputs.cache
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopHost\obj\Debug\ShopHost.csproj.CopyComplete
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopHost\obj\Debug\ShopHost.exe
+D:\School\Jaar 2\Blok 3\TODSS\dotNET-prac6\ShopHost\obj\Debug\ShopHost.pdb
