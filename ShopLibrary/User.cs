@@ -11,6 +11,8 @@ namespace ShopLibrary
     public class User
     {
         [DataMember]
+        public int id { get; set; }
+        [DataMember]
         public string username { get; set; }
         [DataMember]
         public string password { get; set; }
