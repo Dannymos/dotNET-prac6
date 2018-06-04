@@ -1,0 +1,5 @@
+c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopLibrary\bin\Debug\ShopLibrary.dll
+c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopLibrary\bin\Debug\ShopLibrary.pdb
+c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopLibrary\obj\Debug\ShopLibrary.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopLibrary\obj\Debug\ShopLibrary.dll
+c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopLibrary\obj\Debug\ShopLibrary.pdb
