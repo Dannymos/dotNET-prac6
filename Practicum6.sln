@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopLibrary", "ShopLibrary\ShopLibrary.csproj", "{6A6D52AD-6C93-4B3F-8C2F-4A6276DCB920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopHost", "ShopHost\ShopHost.csproj", "{EF432B60-54D9-4510-8BE9-0AD885686E72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopClient", "ShopClient\ShopClient.csproj", "{D492DEAC-A6DC-43EB-9FAE-2738E8B558BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A6D52AD-6C93-4B3F-8C2F-4A6276DCB920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A6D52AD-6C93-4B3F-8C2F-4A6276DCB920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A6D52AD-6C93-4B3F-8C2F-4A6276DCB920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A6D52AD-6C93-4B3F-8C2F-4A6276DCB920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF432B60-54D9-4510-8BE9-0AD885686E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF432B60-54D9-4510-8BE9-0AD885686E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF432B60-54D9-4510-8BE9-0AD885686E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF432B60-54D9-4510-8BE9-0AD885686E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D492DEAC-A6DC-43EB-9FAE-2738E8B558BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D492DEAC-A6DC-43EB-9FAE-2738E8B558BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D492DEAC-A6DC-43EB-9FAE-2738E8B558BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D492DEAC-A6DC-43EB-9FAE-2738E8B558BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
