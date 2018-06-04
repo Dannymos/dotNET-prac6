@@ -1,0 +1,8 @@
+c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopHost\bin\Debug\ShopHost.exe.config
+c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopHost\bin\Debug\ShopHost.exe
+c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopHost\bin\Debug\ShopHost.pdb
+c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopHost\bin\Debug\ShopLibrary.dll
+c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopHost\bin\Debug\ShopLibrary.pdb
+c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopHost\obj\Debug\ShopHost.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopHost\obj\Debug\ShopHost.exe
+c:\users\user\documents\visual studio 2015\Projects\Practicum6\ShopHost\obj\Debug\ShopHost.pdb
