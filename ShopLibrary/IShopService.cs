@@ -18,7 +18,7 @@ namespace ShopLibrary
 
         //USER FUNCTIONS
         [OperationContract]
-        bool register(string username);
+        string register(string username);
 
         [OperationContract]
         double getBalance(int userid);
