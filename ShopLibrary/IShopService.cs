@@ -30,10 +30,10 @@ namespace ShopLibrary
         bool isUsernameUnique(string username);
 
         [OperationContract]
-        User login(string username, string password);
+        User login(String username, String password);
 
         [OperationContract]
-        bool buyProduct(int prodid, int amount);
+        string buyProduct(int prodid, int userid, int amount);
 
         [OperationContract]
         List<Product> getUserOwnedProducts(int userid);

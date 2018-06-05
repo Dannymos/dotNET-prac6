@@ -119,6 +119,58 @@ namespace ShopLibrary
             return results;
         }
 
+        public void overwriteInventory(List<Product> products, int user)
+        {
+            var path = "C:\\Users\\User\\Documents\\Visual Studio 2015\\Projects\\Practicum6\\ShopLibrary\\inventory.csv";
+            List<String> lines = new List<string>();
+            int id = 1;
+            foreach (Product product in products)
+            {
+                //format is: inventoryLineID,productID,userID,amount
+                String newLine = string.Format("{0},{1},{2},{3}", id, product.id, user, product.stock);
+                id++;
+                lines.Add(newLine);
+            }
 
+            File.WriteAllLines(path, lines);
+        }
+
+        public void UpdateProduct(List<Product> products)
+        {
+            //method same idea as: updateUser and saveInventoryFromScratch
+            //get path and define lines to input
+            var path = "C:\\Users\\User\\Documents\\Visual Studio 2015\\Projects\\Practicum6\\ShopLibrary\\product.csv";
+            List<String> lines = new List<string>();
+
+            //define id
+            int id = 1;
+
+            //loop through all products and add product to lines
+            foreach (Product product in products)
+            {
+                //format is: ProductID,name,price,amount
+                String newLine = string.Format("{0},{1},{2},{3}", id, product.name, product.price, product.stock);
+                id++;
+                lines.Add(newLine);
+            }
+            //save list
+            File.WriteAllLines(path, lines);
+        }
+
+        public void UpdateUser(List<User> users)
+        {
+            var path = "C:\\Users\\User\\Documents\\Visual Studio 2015\\Projects\\Practicum6\\ShopLibrary\\user.csv";
+            List<String> lines = new List<string>();
+            int id = 1;
+            foreach (User user in users)
+            {
+                //format is: userID,balance,password,username
+                String newLine = string.Format("{0},{1},{2},{3}", id, user.balance, user.password, user.username);
+                id++;
+                lines.Add(newLine);
+            }
+
+            File.WriteAllLines(path, lines);
+        }
     }
 }

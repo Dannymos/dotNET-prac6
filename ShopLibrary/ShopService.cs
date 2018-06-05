@@ -35,7 +35,7 @@ namespace ShopLibrary
             return "User registered! you password is: " + password;
         }
 
-        public User login(string username, string password)
+        public User login(String username, String password)
         {
             DAO dao = new DAO();
             List<User> users = dao.readUsers();
@@ -52,9 +52,48 @@ namespace ShopLibrary
             
         }
 
-        public bool buyProduct(int prodid, int amount)
+        public string buyProduct(int prodid, int userid, int amount)
         {
-            return true;
+            DAO dao = new DAO();
+            List<Product> ownedproducts = dao.readInventory(userid);
+            List<Product> products = dao.readProducts();
+            List<User> users = dao.readUsers();
+            Product product = products.Find(x => x.id == prodid);
+            User user = users.Find(x => x.id == userid);
+            if(getBalance(user.id) >= product.price)
+            {
+                if(product.stock >= 1)
+                {
+                    if ((from x in ownedproducts where x.id == product.id select x).Any())
+                    {
+                        int indexp = ownedproducts.FindIndex(x => x.id == product.id);
+                        ownedproducts[indexp].stock += amount;
+                        dao.overwriteInventory(ownedproducts, user.id);
+                    }
+                    else
+                    {
+                        dao.saveInventory(product, user, 1);
+
+                    }
+                    //update user balance
+                    int index = users.FindIndex(x => x.id == user.id);
+                    users[index].balance -= product.price;
+                    dao.UpdateUser(users);
+                    //update shop stock amount of bought product
+                    int indexShop = products.FindIndex(x => x.id == product.id);
+                    products[indexShop].stock -= amount;
+                    dao.UpdateProduct(products);
+                    return "bought product: " + product.name + " For : $" + product.price + " for user: " + user.username;
+                }
+                else
+                {
+                    return "Product no longer in stock!";
+                }
+            }
+            else
+            {
+                return "Not enough balance!";
+            }
         }
 
         public List<Product> getUserOwnedProducts(int userid)
